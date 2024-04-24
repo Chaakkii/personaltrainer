@@ -1,0 +1,13 @@
+#root {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.tab-selected {
+  background-color: #1976d2 !important;
+  color: #fff !important;
+  font-weight: bold !important;
+}
+
