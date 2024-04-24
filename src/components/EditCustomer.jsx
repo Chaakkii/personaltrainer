@@ -45,7 +45,6 @@ export default function EditCustomer({ data, updateCustomer }) {
     return ( 
         <React.Fragment>
             <Button variant="outlined" startIcon={<EditIcon />} onClick={handleClickOpen}>
-                Edit
             </Button>
 
             <Dialog

@@ -25,7 +25,6 @@ function Trainingslist() {
         { field: 'delete',
         cellRenderer: params => 
         <Button size="small" color="error" variant="contained" startIcon={<DeleteIcon />} onClick={() => handleClickDelete(params.data.id)}>
-            Delete
         </Button>
         , width: 120
     },

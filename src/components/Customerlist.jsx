@@ -31,7 +31,6 @@ function Customerlist() {
         { field: 'delete', sortable: false,
             cellRenderer: params =>
                 <Button size="small" color="error" variant="contained" startIcon={<DeleteIcon />} onClick={() => handleClickDelete(params.data._links.customer.href)}>
-                    Delete
                 </Button>
             , width: 120
         },
